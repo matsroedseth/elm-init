@@ -4,7 +4,7 @@
   "description": "Minste fungerende løsning",
   "main": "dist/index.html",
   "scripts": {
-    "build": "gulp build",
+    "build": "gulp default",
     "dev": "gulp dev"
   },
   "repository": {
@@ -23,6 +23,8 @@
     "gulp": "^4.0.2",
     "gulp-connect": "^5.7.0",
     "gulp-elm": "^0.8.2",
-    "gulp-plumber": "^1.2.1"
+    "gulp-plumber": "^1.2.1",
+    "elm": "latest-0.19.1",
+    "elm-format": "^0.8.2"
   }
 }
