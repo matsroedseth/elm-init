@@ -5,8 +5,7 @@
   "main": "dist/index.html",
   "scripts": {
     "build": "gulp build",
-    "dev": "gulp dev",
-    "pack": "gulp pack"
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",

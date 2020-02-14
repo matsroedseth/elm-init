@@ -78,9 +78,12 @@ var watchSource = function(done) {
 	done();
 };
 
-exports.pack = gulp.series(
-  elmbundle
-);
+var pack = function(done) {
+    gulp.series(elmbundle, staticCompile)
+
+	// Signal completion
+	done();
+};
 
 /**
  * Export Tasks
@@ -88,7 +91,7 @@ exports.pack = gulp.series(
 
 // Default task
 // gulp
-exports.build = gulp.series(
+exports.default = gulp.series(
   clean,
 	elmCompile,
   staticCompile
