@@ -23,7 +23,7 @@ main =
 
 init : () -> ( Model, Cmd Msg )
 init _ =
-    ( { navn = "verden!"
+    ( { navn = "Verden!"
       }
     , Cmd.none
     )
