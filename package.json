@@ -7,7 +7,7 @@
     "build": "gulp default",
     "dev": "gulp dev",
     "publish": "npm install elm elm-format && npm run build"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matsroedseth/elm-init.git"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/matsroedseth/elm-init#readme",
   "dependencies": {
+    "elm-format": "^0.8.2",
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
