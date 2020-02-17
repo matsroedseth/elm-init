@@ -5,7 +5,12 @@
   "main": "dist/index.html",
   "scripts": {
     "build": "gulp default",
-    "dev": "gulp dev"
+    "dev": "gulp dev",
+    "publish": [
+      "npm install elm",
+      "npm install elm-format",
+      "npm build"
+    ]
   },
   "repository": {
     "type": "git",
@@ -17,14 +22,12 @@
     "url": "https://github.com/matsroedseth/elm-basic/issues"
   },
   "homepage": "https://github.com/matsroedseth/elm-basic#readme",
-  "dependencies": {
+  "devDependencies": {
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-connect": "^5.7.0",
     "gulp-elm": "^0.8.2",
-    "gulp-plumber": "^1.2.1",
-    "elm": "latest-0.19.1",
-    "elm-format": "^0.8.2"
+    "gulp-plumber": "^1.2.1"
   }
 }
