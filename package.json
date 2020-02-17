@@ -1,23 +1,23 @@
 {
-  "name": "Elm-Basic",
+  "name": "Elm-Init",
   "version": "1.0.0",
-  "description": "Minste fungerende løsning",
+  "description": "Raskeste vei til utvikling av elm-applikasjoner",
   "main": "dist/index.html",
   "scripts": {
     "build": "gulp default",
     "dev": "gulp dev",
-    "publish": "npm install elm elm-format && npm build"
+    "publish": "npm install elm elm-format && npm run build"
     },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matsroedseth/elm-basic.git"
+    "url": "git+https://github.com/matsroedseth/elm-init.git"
   },
   "author": "Mats Rødseth",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matsroedseth/elm-basic/issues"
+    "url": "https://github.com/matsroedseth/elm-init/issues"
   },
-  "homepage": "https://github.com/matsroedseth/elm-basic#readme",
+  "homepage": "https://github.com/matsroedseth/elm-init#readme",
   "dependencies": {
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
