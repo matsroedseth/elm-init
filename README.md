@@ -9,7 +9,7 @@
 
 ## Get up and running
 
-Click [Use this template](https://github.com/matsroedseth/elm-init/generate), create your repo and clone it.
+[Use this template (requires login)](https://github.com/matsroedseth/elm-init/generate), create your repo and clone it.
 
 ### Dev
 
