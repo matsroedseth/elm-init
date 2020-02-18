@@ -1,7 +1,7 @@
 {
   "name": "Elm-Init",
   "version": "1.0.0",
-  "description": "Raskeste vei til utvikling av elm-applikasjoner",
+  "description": "Get up and running with Elm",
   "main": "dist/index.html",
   "scripts": {
     "build": "gulp default",
